@@ -6,13 +6,13 @@ This project aims to provide business insights for the newly appointed CEO of Br
 
 🎯 Objectives
 
--Identify top revenue-generating products
+- Identify top revenue-generating products
 
--Determine peak sales times during the day
+- Determine peak sales times during the day
 
--Analyze sales trends across products and time intervals
+- Analyze sales trends across products and time intervals
 
--Provide strategic recommendations to boost sales
+- Provide strategic recommendations to boost sales
 
 🛠️ Tools & Technologies Used
 
