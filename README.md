@@ -16,21 +16,21 @@ This project aims to provide business insights for the newly appointed CEO of Br
 
 🛠️ Tools & Technologies Used
 
--Data Processing
+- Data Processing
 
  Snowflake (Data warehousing & SQL transformations)
 
--Data Analysis & Visualization
+- Data Analysis & Visualization
 
  Microsoft Excel (Pivot tables, charts)
 
  Goggle Looker (Dashboards)
 
--Planning & Architecture
+- Planning & Architecture
 
  Miro & Canva  (Data flow diagrams)
 
--Presentation
+- Presentation
 
  Microsoft PowerPoint & Canva
 
@@ -48,5 +48,5 @@ The analysis of Bright Coffee Shop's historical sales data revealed the followin
   - Promote underperforming products
   - Automate daily sales reporting and explore multi-location tracking
 
-These insights were visualized using Excel dashboards and presented to the CEO to support strategic decision-making.
+These insights were visualized using Excel and dashboards to present to the CEO to support strategic decision-making.
 
