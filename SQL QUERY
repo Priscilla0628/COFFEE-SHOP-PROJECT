@@ -1,0 +1,36 @@
+SELECT
+    SUM(transaction_qty*unit_price) As total_revenue,
+    SUM(transaction_qty) As number_of_units_sold,
+    COUNT(transaction_id) As number_of_sales,
+
+    TO_CHAR(transaction_date,'YYYYMM')AS month_id,
+    MONTHNAME(transaction_date)AS month_name,
+    DAYNAME(transaction_date)AS day_name,
+    CASE 
+         WHEN transaction_time BETWEEN '06:00:00' AND '11:59:59' THEN 'Morning'
+         WHEN transaction_time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon'
+         WHEN transaction_time BETWEEN '16:00:00' AND '20:00:00' THEN 'Evening'
+         ELSE 'Night'
+END AS time_bucket,
+
+    CASE
+         WHEN SUM(transaction_qty*unit_price)BETWEEN 0 AND 20 THEN 'Low'
+         WHEN SUM(transaction_qty*unit_price)BETWEEN 21 AND 40 THEN 'Med'
+         WHEN SUM(transaction_qty*unit_price)BETWEEN 41 AND 60 THEN 'High'
+        ELSE 'Very high'
+        END AS spend_bands,
+        
+    product_category,
+    product_type,
+    product_detail,
+    store_location,
+
+FROM coffe.shop.coffeshopsales
+GROUP BY time_bucket,
+         product_category,
+         product_type,
+         product_detail,
+         store_location,
+         month_id,
+         month_name,
+         day_name;
