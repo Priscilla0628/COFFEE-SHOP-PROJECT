@@ -18,18 +18,18 @@ This project aims to provide business insights for the newly appointed CEO of Br
 
 -Data Processing
 
-Snowflake (Data warehousing & SQL transformations)
+ Snowflake (Data warehousing & SQL transformations)
 
 -Data Analysis & Visualization
 
-Microsoft Excel (Pivot tables, charts)
+ Microsoft Excel (Pivot tables, charts)
 
-Goggle Looker (Dashboards)
+ Goggle Looker (Dashboards)
 
 -Planning & Architecture
 
-Miro & Canva  (Data flow diagrams)
+ Miro & Canva  (Data flow diagrams)
 
 -Presentation
 
-Microsoft PowerPoint & Canva
+ Microsoft PowerPoint & Canva
